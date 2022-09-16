@@ -1,0 +1,15 @@
+.select{
+    margin-left : 470px;
+    margin-top : 50px;
+    height: 50px;
+    width: 600px;
+    background: #d8f0fe; 
+    border-radius: 5px;
+}
+.button{
+    height: 30px;
+    background-color:#5bc1fc ;
+    border-radius: 5px;
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}

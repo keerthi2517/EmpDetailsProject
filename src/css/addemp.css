@@ -1,0 +1,47 @@
+.centering{
+    text-align: left;
+    border: 3px solid rgb(193, 234, 242);
+    height: 500px;
+    width: 50%;
+    margin: 75px 500px 75px 100px;
+    padding: 60px;
+    background-color: aliceblue;
+}
+.inputColor{
+    background-color: rgb(129, 245, 245);
+}
+.heading{
+    font-size: 30px;
+	line-height: 35px;
+	margin: 1em 0 .6em 0;
+	font-weight: normal;
+	color: white;
+	font-family: 'Hammersmith One', sans-serif;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	position: relative;
+}
+.button{
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgb(255 255 255 / 70%) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px 0.8em;
+    position: right;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}

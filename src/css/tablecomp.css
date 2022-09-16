@@ -1,0 +1,25 @@
+
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 600px;
+    margin: 70px 200px 200px;
+  }
+  .tableFixHead thead th {
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    background: #7cc5f9;
+  }
+  table {
+    width: 100%;
+    border: 1px solid #7cc5f9 ;
+  }
+  th,
+  td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+  }
+  th {
+    background: #eee;
+  }

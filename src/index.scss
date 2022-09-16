@@ -1,0 +1,389 @@
+@import '~uxt-core/themes/light.scss'; // will get overwritten
+@import '~uxt-react/themes/light';
+/* overwirting the old color scheme */
+
+$uxt-color: $uxt-theme-palette-grey-800;
+$uxt-color-primary: $uxt-theme-palette-primary-main;
+$uxt-color-subtle: $uxt-theme-palette-grey-500;
+$uxt-color-active: $uxt-theme-palette-grey-800;
+$uxt-color-active-inverted: $uxt-theme-palette-action-disabled;
+$uxt-color-inverted: $uxt-theme-palette-grey-50;
+$uxt-color-disabled: $uxt-theme-palette-grey-400;
+
+$uxt-background-color: $uxt-theme-palette-background-paper;
+$uxt-background-color-hover: $uxt-theme-palette-grey-50;
+$uxt-background-color-behind: $uxt-theme-palette-grey-100;
+$uxt-background-color-behind-hover: $uxt-theme-palette-grey-200;
+$uxt-background-color-active: $uxt-theme-palette-action-selected;
+
+$uxt-border-color: $uxt-theme-palette-grey-300;
+$uxt-border-color-active: $uxt-theme-palette-primary-main;
+$uxt-border-color-focus: $uxt-theme-palette-primary-main;
+$uxt-border-color-disabled: $uxt-theme-palette-grey-200;
+
+$uxt-button-background-color: $uxt-theme-palette-grey-50;
+$uxt-button-active-background-color: $uxt-theme-palette-grey-50;
+
+$uxt-checkbox-check-background-color: $uxt-theme-palette-primary-main;
+$uxt-checkbox-active-border-color: $uxt-theme-palette-primary-main;
+
+$uxt-fab-background-color: $uxt-theme-palette-primary-main;
+$uxt-fab-color: $uxt-theme-palette-grey-50;
+
+$uxt-floating-toolbar-background-color: $uxt-theme-palette-grey-50;
+
+$uxt-grid-cell-body-content-error-background-color: $uxt-theme-palette-error-light;
+$uxt-grid-cell-body-content-success-background-color: $uxt-theme-palette-success-light;
+$uxt-grid-cell-body-content-warning-background-color: $uxt-theme-palette-warning-light;
+$uxt-grid-cell-body-content-hover-background-color: $uxt-theme-palette-grey-300;
+$uxt-grid-cell-body-content-hover-error-background-color: $uxt-theme-palette-error-main;
+$uxt-grid-cell-body-content-hover-success-background-color: $uxt-theme-palette-success-main;
+$uxt-grid-cell-body-content-hover-warning-background-color: $uxt-theme-palette-warning-main;
+
+$uxt-grid-cell-header-content-background-color: $uxt-theme-palette-grey-100;
+
+$uxt-grid-cell-validation-tick-content-error-background-color: $uxt-theme-palette-error-main;
+$uxt-grid-cell-validation-tick-content-success-background-color: $uxt-theme-palette-success-main;
+$uxt-grid-cell-validation-tick-content-warning-background-color: $uxt-theme-palette-warning-main;
+
+$uxt-icon-fill: $uxt-theme-palette-grey-500;
+$uxt-icon-fill-disabled: $uxt-theme-palette-grey-200;
+
+$uxt-icon-button-active-background-color: $uxt-theme-palette-grey-200;
+$uxt-icon-button-disabled-fill: $uxt-theme-palette-grey-200;
+
+$uxt-input-invalid-border-color: $uxt-theme-palette-error-main;
+$uxt-input-readonly-background-color: rgba(0, 0, 0, 0.03);
+$uxt-input-readonly-color: $uxt-theme-palette-text-disabled;
+
+$uxt-list-item-text-active-secondary-text-color: $uxt-theme-palette-grey-100;
+$uxt-list-item-action-active-fill: $uxt-theme-palette-grey-50;
+
+$uxt-login-background: linear-gradient(to right, $uxt-theme-palette-primary-main, $uxt-theme-palette-primary-dark);
+$uxt-login-product-title-color: $uxt-theme-palette-primary-dark;
+$uxt-login-release-color: $uxt-theme-palette-primary-dark;
+
+$uxt-notification-background-color: $uxt-theme-palette-grey-700;
+$uxt-notification-color: $uxt-theme-palette-grey-50;
+$uxt-notification-error-tab-color: $uxt-theme-palette-error-main;
+$uxt-notification-info-tab-color: $uxt-theme-palette-primary-main;
+$uxt-notification-success-tab-color: $uxt-theme-palette-success-main;
+$uxt-notification-warning-tab-color: $uxt-theme-palette-warning-main;
+$uxt-notification-action-color: $uxt-theme-palette-primary-main;
+
+$uxt-popup-background-color: $uxt-theme-palette-grey-50;
+
+$uxt-progress-bar-fill-background-color: $uxt-theme-palette-primary-main;
+
+$uxt-radio-button-check-background-color: $uxt-theme-palette-primary-main;
+$uxt-radio-button-active-border-color: $uxt-theme-palette-primary-main;
+
+$uxt-sidebar-background-color: $uxt-theme-palette-grey-700;
+$uxt-sidebar-background-color-behind: $uxt-theme-palette-grey-800;
+$uxt-sidebar-color: $uxt-theme-palette-grey-50;
+$uxt-sidebar-active-background-color: $uxt-theme-palette-grey-600;
+$uxt-sidebar-hover-background-color: $uxt-theme-palette-grey-800;
+
+$uxt-slider-left-track-background-color: $uxt-theme-palette-primary-main;
+$uxt-slider-right-track-background-color: $uxt-theme-palette-grey-200;
+$uxt-slider-thumb-background-background-color: $uxt-theme-palette-grey-A100;
+$uxt-slider-thumb-center-background-color: $uxt-theme-palette-primary-main;
+$uxt-slider-thumb-center-border-color: $uxt-theme-palette-primary-main;
+$uxt-slider-at-zero-thumb-center-border-color: $uxt-theme-palette-grey-200;
+
+$uxt-spinner-stroke: $uxt-theme-palette-primary-main;
+
+$uxt-switch-thumb-background-color: $uxt-theme-palette-grey-100;
+$uxt-switch-track-background-color: $uxt-theme-palette-grey-200;
+$uxt-switch-active-thumb-background-color: $uxt-theme-palette-primary-main;
+$uxt-switch-active-track-background-color: $uxt-theme-palette-primary-light;
+$uxt-switch-disabled-thumb-background-color: $uxt-theme-palette-grey-50;
+$uxt-switch-disabled-track-background-color: $uxt-theme-palette-grey-200;
+
+$uxt-tabs-tab-active-color: $uxt-theme-palette-primary-main;
+$uxt-tabs-tab-active-border-color: $uxt-theme-palette-primary-main;
+
+$uxt-toggle-icon-button-active-fill: $uxt-theme-palette-primary-main;
+$uxt-toggle-icon-button-active-background-color: $uxt-theme-palette-primary-light;
+$uxt-toggle-icon-button-active-disabled-fill: $uxt-theme-palette-grey-50;
+$uxt-toggle-icon-button-active-disabled-background-color: $uxt-theme-palette-grey-200;
+$uxt-toggle-icon-button-disabled-fill: $uxt-theme-palette-grey-200;
+
+$uxt-button__minimal-primary__color: $uxt-theme-palette-primary-main;
+
+$uxt-toolbar-background-color: $uxt-theme-palette-grey-100;
+$uxt-toolbar-button-active-background-color: $uxt-theme-palette-grey-200;
+
+$uxt-topbar-color: $uxt-theme-palette-grey-50;
+$uxt-topbar-background-color: $uxt-theme-palette-primary-dark;
+$uxt-topbar-icon-button-active-background-color: $uxt-theme-palette-primary-dark;
+$uxt-topbar-searching-color: $uxt-theme-palette-grey-800;
+$uxt-topbar-searching-background-color: $uxt-theme-palette-grey-50;
+$uxt-topbar-searching-icon-button-active-background-color: $uxt-theme-palette-grey-100;
+
+$uxt-user-menu-item-hover-background-color: $uxt-theme-palette-primary-dark;
+
+$uxt-shadow-distance: 2px;
+$uxt-shadow-blur: 5px;
+$uxt-shadow-color: rgba(0, 0, 0, 0.25);
+$uxt-shadow-top-color: rgba(0, 0, 0, 0.1);
+$uxt-shadow-distance-inset: 4px;
+$uxt-shadow-blur-inset: 6px;
+$uxt-shadow-spread-inset: -5px;
+$uxt-shadow-top: 0 -$uxt-shadow-distance $uxt-shadow-blur $uxt-shadow-top-color;
+$uxt-shadow-right: $uxt-shadow-distance 0 $uxt-shadow-blur $uxt-shadow-color;
+$uxt-shadow-bottom: 0 $uxt-shadow-distance $uxt-shadow-blur $uxt-shadow-color;
+$uxt-shadow-left: -$uxt-shadow-distance 0 $uxt-shadow-blur $uxt-shadow-color;
+$uxt-shadow-inset-top: 0 $uxt-shadow-distance-inset $uxt-shadow-blur-inset $uxt-shadow-spread-inset $uxt-shadow-color inset;
+$uxt-shadow-inset-right: -$uxt-shadow-distance-inset 0 $uxt-shadow-blur-inset $uxt-shadow-spread-inset $uxt-shadow-color inset;
+$uxt-shadow-inset-bottom: 0 -$uxt-shadow-distance-inset $uxt-shadow-blur-inset $uxt-shadow-spread-inset $uxt-shadow-color inset;
+$uxt-shadow-inset-left: $uxt-shadow-distance-inset 0 $uxt-shadow-blur-inset $uxt-shadow-spread-inset $uxt-shadow-color inset;
+
+$uxt-border-radius: 2px;
+$uxt-border-radius-circular: 100%;
+
+$uxt-button__min-width: $uxt-theme-spacing * 16;
+$uxt-button__height: $uxt-theme-spacing * 9;
+$uxt-button__padding: $uxt-theme-spacing * 2;
+$uxt-button__color: $uxt-color;
+$uxt-button__background-color: $uxt-button-background-color;
+$uxt-button__background-color--active: $uxt-button-active-background-color;
+$uxt-button__border-color: $uxt-border-color;
+$uxt-button__border-color--focus: $uxt-border-color-focus;
+$uxt-button__border: 1px solid $uxt-button__border-color;
+$uxt-button__border-radius: $uxt-border-radius;
+$uxt-button__box-shadow: none;
+$uxt-button__minimal-primary__color: $uxt-theme-palette-primary-main;
+$uxt-button__minimal-primary__background-color: $uxt-background-color;
+$uxt-button__minimal-primary__background-color--active: $uxt-background-color-hover;
+$uxt-button__minimal-primary__border-color: transparent;
+$uxt-button__minimal-primary__border-color--focus: transparent;
+$uxt-button__minimal-primary__padding-left: $uxt-theme-spacing * 1;
+$uxt-button__minimal-primary__padding-right: $uxt-theme-spacing * 1;
+/* end od overwrite old color scheme */
+@import '~uxt-core/uxt-core.scss';
+
+// copied from uxt-core library
+// essential styling for the app to run
+@mixin uxtApp {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@mixin uxtContent {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@mixin uxtMain {
+  display: flex;
+  flex: 1 1 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-basis: 100%;
+}
+
+@mixin edge-and-ie11 {
+  // IE10 +
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { @content; }
+  // Edge 12-15 and Edge 16
+  @supports (-ms-ime-align:auto) or (-ms-accelerator:true) { @content; }
+}
+
+// Prevent search text from overflowing over search icon on small screens
+@mixin prevent-text-overflow {
+  @include respond-to(phone) {
+    .uxt-input__input {
+      min-width: 0px !important;
+      padding-right: 30px !important;
+    }
+  }  
+}
+
+/* Common place for applying media queries based on the device screen size.
+   $media - param of screen size of device
+   To achieve scalable UI.
+*/
+@mixin respond-to($media){
+  /* portrait phones and down */
+  @if $media == phone-portrait {
+    @media (max-width: 375px) { @content; }
+  }
+  /* Landscape phones and down */
+  @if $media == phone {
+      @media (max-width: 480px) { @content; }
+  }  
+  /* Landscape phone to portrait tablet */
+  @else if $media == tablet-portrait {
+      @media (max-width: 768px) {@content; }
+  }
+  /* Portrait tablet to landscape and desktop */
+  @else if $media == tablet-landscape-desktop {
+      @media (min-width: 769px) and (max-width: 980px) { @content; }
+  }
+  /* desktop and laptop */
+  @else if $media == laptop {
+    @media (min-width: 981px) and (max-width: 1200px) { @content; }
+  }
+  /* Large desktop */
+  @else if $media == large-desktop {
+      @media (min-width: 1201px) and (max-width: 1440px) { @content; }
+  }
+  /* more than Large desktop screen sizes */
+  @else if $media == large-desktop-lg {
+    @media (min-width: 1441px) { @content; }
+  }
+}
+
+$modal-width: 576px;
+
+/* style for uxt-modal is for vertical scaling of UxtModal, applicable for pages.
+   style for modal__content is a common one to reduce padding for every page, so moved to here.
+   style for modal__overlay is a common one for modal background position, so moved to here.
+*/
+.uxt-modal {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  &__content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  &__overlay
+  {
+    position: fixed !important;
+  }
+}
+
+.uxt-dialog {
+  &__content {
+    word-wrap: break-word;   
+  }
+}
+
+// This style overrides uxt-react@6.34.2 transparent dropdowns
+.dropdownList{
+  background-color: #ffffff;
+    input {
+        background-color: $uxt-theme-palette-background-paper !important;
+    }
+
+    input:disabled {
+        cursor: not-allowed;
+    }
+}
+
+/* styles for the uxt-input search box - when the 
+   cursor is in search input box or if the user 
+   enters any value in input box, blue background is shown.
+   Or else if search input box is empty, white background is shown.
+*/
+.inputLabelRaised {
+  input:focus:valid {
+    background: $uxt-theme-palette-action-selected;
+  }
+  input:not(:focus):not(:placeholder-shown):valid {
+    background: $uxt-theme-palette-action-selected;
+  }
+}
+
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=text], input[type=url] {
+  border: 0;
+  padding-left: $uxt-theme-spacing * 2;
+  
+}
+
+#UxtDialog button,
+.sitesCard button,
+.actionButton, .cancelButton, .submitButton{
+  font-weight: 600!important;
+  &:hover {
+    background: $uxt-theme-palette-action-hover;
+  }
+}
+
+.modalContent-about {
+  padding: 0!important;
+  @media screen and (max-width: 767px) {
+    width: 100%!important;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.dialogContent {
+  padding: 0!important;
+  width: $modal-width!important;
+  @media screen and (max-width: 767px) {
+    width: 100%!important;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.modalPadding {
+  padding: $uxt-theme-spacing * 2 $uxt-theme-spacing * 3;
+  width: $modal-width!important;
+  @media screen and (max-width: 767px) {
+    width: 100%!important;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.modalHeader {
+  font-weight: 600!important;
+}
+
+#UxtDialog {
+  div > div:nth-child(2) {
+    max-width: 525px;
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+    }
+  }
+}
+
+.uxt-grid-cell {
+  background: $uxt-theme-palette-background-paper;
+}
+
+.uxt-grid-cell-header-content,
+.uxt-grid-cell-header-content:hover {
+  justify-content: space-between!important;
+  background: $uxt-theme-palette-grey-100;
+  position: relative;
+  &__text {
+    padding: 0 8px;
+  }
+  .uxt-grid-cell-header-content__sort-icon {
+    position: absolute;
+    right: 30px;
+  }
+}
+.uxt-grid-cell-header-content__filter-button {
+  height: 40px!important;
+}

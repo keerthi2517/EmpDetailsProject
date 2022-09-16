@@ -1,0 +1,46 @@
+.card  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 600px;
+    background: #d8f0fe;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .pic{
+    padding: 30px;
+    left:10%;
+    height: 380px;
+    width: 250px;
+  }
+  .left{
+    text-align: left;
+  }
+  .right{
+    text-align: right;
+  }
+  .heading{
+    text-align: center;
+    background-color: #5ac2fe;
+  }
+  .smallcard  {
+    position: absolute;
+    left: 67%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 400px;
+    background: #8ecef3;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .information{
+    text-align: left;
+    padding: 40px;
+  }
+  .textcolor{
+    color: red;
+  }
+  

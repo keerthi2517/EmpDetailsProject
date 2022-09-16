@@ -1,0 +1,15 @@
+.deleteUpdate{
+    height: 30px;
+    background-color:#5bc1fc ;
+    border-radius: 5px;
+    margin-left: 800px;
+    margin-top: 530px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.goback{
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 850px;
+    margin-top: 530px;
+    font-family: Arial, Helvetica, sans-serif;
+}
